@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Cursos - FMP</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #0000FF; /* Fundo azul */
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #87CEEB; /* Azul céu ao passar o mouse */
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0; /* Remover margem superior padrão */
+        }
+
+        #cursos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .curso {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cursos.html">Nossos Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Nossos Cursos</h1>
+        <section id="cursos">
+            <div class="curso">
+                <h2>Processos Gerenciais</h2>
+                <p><strong>Graduação:</strong> Tecnólogo</p>
+                <p><strong>Modalidade:</strong> Presencial</p>
+                <p><strong>Duração:</strong> 2 anos</p>
+                <p><strong>Turno:</strong> Matutino</p>
+            </div>
+            <div class="curso">
+                <h2>Administração</h2>
+                <p><strong>Graduação:</strong> Bacharel</p>
+                <p><strong>Modalidade:</strong> Presencial</p>
+                <p><strong>Duração:</strong> 4 anos</p>
+                <p><strong>Turno:</strong> Matutino e Noturno</p>
+            </div>
+            <div class="curso">
+                <h2>Pedagogia</h2>
+                <p><strong>Graduação:</strong> Licenciatura</p>
+                <p><strong>Modalidade:</strong> Presencial</p>
+                <p><strong>Duração:</strong> 4 anos</p>
+                <p><strong>Turno:</strong> Matutino e Noturno</p>
+            </div>
+            <div class="curso">
+                <h2>Análise e Desenvolvimento de Sistemas (ADS)</h2>
+                <p><strong>Graduação:</strong> Tecnólogo</p>
+                <p><strong>Modalidade:</strong> Presencial</p>
+                <p><strong>Duração:</strong> 2,5 anos</p>
+                <p><strong>Turno:</strong> Matutino</p>
+            </div>
+            <div class="curso">
+                <h2>Gestão de Turismo</h2>
+                <p><strong>Graduação:</strong> Tecnólogo</p>
+                <p><strong>Modalidade:</strong> Presencial</p>
+                <p><strong>Duração:</strong> 2 anos</p>
+                <p><strong>Turno:</strong> Matutino</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
